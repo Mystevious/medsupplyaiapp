@@ -1,0 +1,35 @@
+MedSupplyAI Professional V2 — FIXED PACKAGE
+
+1) Open this exact folder in VS Code.
+2) Make a copy of .env.example and rename the copy to .env.
+3) Set MYSQL_PASSWORD in .env to your local MySQL root password.
+4) From this folder, run:
+
+   python -m venv venv
+   .\venv\Scripts\python.exe -m pip install -r requirements.txt
+   .\venv\Scripts\python.exe backend\app.py
+
+5) Open:
+   http://127.0.0.1:5000
+
+Useful direct pages:
+   /inventory
+   /alerts
+   /prediction
+   /supply-chain
+   /procurement
+   /settings
+
+Useful API checks:
+   /api/version
+   /api/health
+   /api/batches
+   /api/storage
+   /api/procurement
+
+IMPORTANT:
+- This package is a corrected rebuild of the earlier V2 package.
+- It contains explicit /api/batches and /api/procurement routes.
+- It also has friendly page aliases without .html.
+- Existing inventory data is not dropped.
+- Demo traceability data is labeled DEMO; do not present it as verified real-world origin data.

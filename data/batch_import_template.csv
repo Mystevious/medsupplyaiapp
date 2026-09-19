@@ -1,0 +1,2 @@
+medicine_id,batch_number,manufacture_date,expiry_date,quantity,received_date,supplier_id,storage_location_id,origin_country,origin_site,quality_status,data_source,data_status
+1,REPLACE-BATCH,2026-01-01,2027-01-01,100,2026-09-18,1,1,REPLACE WITH VERIFIED COUNTRY,REPLACE WITH VERIFIED SITE,RELEASED,Source URL or document,VERIFIED

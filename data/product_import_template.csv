@@ -1,0 +1,2 @@
+medicine_name,brand_name,strength,dosage_form,category,criticality,storage_instruction,manufacturer,manufacturing_site,product_identifier,data_source,data_status
+Paracetamol,Example Brand,500 mg,Tablet,Analgesic,Essential,Per manufacturer label,REPLACE WITH VERIFIED MANUFACTURER,REPLACE WITH VERIFIED SITE,REPLACE WITH VERIFIED ID,Source URL or document,VERIFIED
